@@ -1,0 +1,65 @@
+// home.component.scss
+
+// Estilos globais para a página Home
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+// Container principal para centralizar o conteúdo
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+// Estilo para o título principal
+h1 {
+  color: #5c6bc0; // Cor principal do título
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+// Parágrafo de descrição
+p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #555; // Cor do texto para descrição
+}
+
+// Adiciona estilo aos botões, se houver algum
+.button {
+  padding: 10px 20px;
+  background-color: #5c6bc0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #3f51b5; // Cor quando o mouse está sobre o botão
+  }
+}
+
+// Responsividade
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .container {
+    padding: 10px;
+  }
+}
